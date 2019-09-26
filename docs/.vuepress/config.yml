@@ -1,0 +1,29 @@
+title: 'FE未道'
+description: '天道酬勤，地道酬德，人道酬学'
+themeConfig:
+ nav:
+  - text: '简介' 
+    link: '/doc/synopsis/'
+  - text: '博客' 
+    link: '/doc/blog/pattern/pattern'
+  - text: '学习资源' 
+    link: '/doc/learn/'
+  - text: '开源项目'
+    link: '/doc/project/'
+ sidebar:
+  /doc/blog/:
+   - title: 设计模式
+     collapsable: true
+     children:
+      - title: javascript设计模式
+        path: /doc/blog/pattern/pattern
+   - title: nodejs
+     collapsable: true
+     children:
+      - title: nodejs基础认知
+        path: /doc/blog/node/node
+   - title: 调试相关
+     collapsable: true
+     children:
+      - title: 抓包
+        path: /doc/blog/capture/package
